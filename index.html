@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychic Game</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div id="main-container">
+        <div class="title">
+            <h1>Psychic Game</h1>
+            <h2>Can you predict the future?</h2>
+        </div>
+        <div id="cards">
+            <img src="./images/1.jpg" class="guess" id="card1">
+            <img src="./images/2.jpg" class="guess" id="card2">
+            <img src="./images/3.jpg" class="guess" id="card3">
+        </div>
+        <div class="title">
+            <h3>Choose a card</h3>
+            <h4><span id="won">0</span> Won / <span id="lost">0</span> Lost</h4>
+            <h5 id="percent"></h5>
+            <button id="restartBtn">Try Again</button>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./game.js"></script>
+</body>
+
+</html>

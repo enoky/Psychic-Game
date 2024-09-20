@@ -1,0 +1,102 @@
+body {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    max-width: 950px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 2rem;
+    text-align: center; /* Ensure title is centered on small screens */
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#restartBtn {
+    font-size: large;
+    margin-top: 20px;
+}
+
+.qmark {
+    max-width: 20%; /* Adjust to screen size */
+    height: auto;
+}
+
+.guess {
+    max-width: 25%; /* Responsive size for card images */
+    height: auto;
+    margin: 10px;
+    animation: fadeIn 0.6s ease-in-out; /* Fade-in after reset */
+}
+
+/* Hover effect on cards */
+.guess:hover {
+    transform: scale(1.1);  /* Enlarge on hover */
+    transition: transform 0.3s ease;  /* Smooth scaling */
+}
+
+/* Animation for clicking a card (flip) */
+.guess:active {
+    transform: rotateY(360deg);  /* Flip animation */
+    transition: transform 0.6s ease;  /* Smooth flip */
+}
+
+/* Animation for reset (fade-in effect) */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Class to trigger fade-in animation after card reset */
+.reset-animation {
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.5rem; /* Smaller text for mobile */
+    }
+    
+    div img.guess {
+        margin: 0px;
+    }
+    
+    #main-container {
+        border-radius: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        max-width: 90vw /* Responsive width */
+    }
+}
