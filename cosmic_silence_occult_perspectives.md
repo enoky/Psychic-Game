@@ -1,6 +1,6 @@
 # Cosmic Silence and the Finite Universe: Integrating Scientific and Occult Perspectives
 
-**By: [Your Name]**
+**By: S.M.R.**
 
 ## Abstract  
 This paper examines the implications of cosmic silence—the absence of detectable extraterrestrial signals—through both scientific and occult lenses. Building on Lazar’s (2025) argument that cosmic silence suggests a finite universe, we introduce occult perspectives that posit the existence of non-physical dimensions and spiritual realms. By integrating these views, we propose a multidimensional understanding of the universe, where the physical realm may be finite while infinite spiritual realms coexist. This synthesis offers a novel approach to the Fermi Paradox and cosmic silence, suggesting that the lack of physical signals does not preclude the existence of intelligent life in non-physical forms.
